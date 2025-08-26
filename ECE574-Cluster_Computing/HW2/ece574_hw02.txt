@@ -1,0 +1,44 @@
+ECE-574 HW02
+Spencer Goulette
+ece574-5
+
+a. 
+	1 thread:
+		time: 118.22
+		GFLOPs: 4.512e+01
+	2 threads:
+		time: 66.03
+		GFLOPs: 8.079e+01
+	4 threads:
+		time: 34.33
+		GFLOPs: 1.554e+02
+	8 threads:
+		time: 20.73
+		GFLOPs: 2.573e+02
+b.
+	i and ii.
+		2 threads:
+			Sp = 118.22 / 66.03 = 1.79
+			Ep = 1.79 / 2 = .895
+		4 threads:
+			Sp = 118.22 / 34.33 = 3.44
+			Ep = 3.44 / 4 = .861
+		8 threads:
+			Sp = 118.22 / 20.73 = 5.70
+			Ep = 5.70 / 8 = .713
+	iii.
+		This benchmark shows strong scaling because the problem size doesn't change but the number of threads increases.
+	iv.
+		There isn't enough info to say weak scaling. The problem size doesn't change and is fixed at N=20000, so it doesn't seem to be weak scaling.
+	v.
+		The real value is higher than the reported value by HPL probably because the .err file is reporting the whole time it ran, whereas the HPL value is the time it took to do the math.
+	vi.
+		The user time is larger than the real time sometimes due to the amount of cores running. The user time is the result of the combined time for each core. So if 8 cores run for 20s each, then the user time is 160s.
+3.
+	a.
+		52.15%: xhpl
+	b.
+		0.85% for: vmovups (%r15),%ymm3
+	c.
+		Skidding is the main reason why an instruction might not be the exact instruction that is causing the slowdown.
+	
