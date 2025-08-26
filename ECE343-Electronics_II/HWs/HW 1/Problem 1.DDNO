@@ -1,0 +1,177 @@
+********************************************************************************
+***              Micro-Cap 12.0.0.3 (32 bit) Evaluation Version              ***
+***                                                                          ***
+***                                                                          ***
+***                         Dynamic DC of Problem 1                          ***
+***                           2/20/2019 4:32:01 PM                           ***
+********************************************************************************
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+VOUT1       902.589m  2             1.650   3             3.300  
+4             1.041   VOUT2         2.339   6             1.650  
+7             2.201   8             3.300  
+
+
+Operating Point for Devices of Type Mosfet NMOS
+===============================================
+Instance:                M1
+Using model:           MYN1
+
+Capacitance Terms:
+CBD                  0.000 
+CBS                  0.000 
+CGSOVL               0.000 
+CGDOVL               0.000 
+CGBOVL               0.000 
+CGS                  0.000 
+CGD                  0.000 
+CGB                  0.000 
+
+Conductance Terms:
+GM                  15.201u
+GDS                 18.364n
+GMBS                 0.000 
+
+Current Terms:
+ID                  -1.880u
+
+Voltage Terms:
+VGS                 -1.650 
+VDS                 -2.397 
+VBS                 -2.259 
+VGB                608.626m
+VGD                747.411m
+VDB               -138.785m
+VTH                500.000m
+VDSAT              247.411m
+
+Power DC Terms:
+PD                   4.508u
+PS                   0.000 
+
+DC Pin Currents:
+Ig                   0.000 
+Id                  -1.880u
+Is                   1.880u
+Ib               2.369E-020
+
+Condition:
+State                   SAT
+
+Device Variables:
+m                    1.000 
+l                    0.000 
+w                    0.000 
+ad                   0.000 
+as                   0.000 
+pd                   0.000 
+ps                   0.000 
+nrd                  0.000 
+nrs                  0.000 
+nrb                  0.000 
+nrg                  0.000 
+vds                  0.000 
+vgs                  0.000 
+vbs                  0.000 
+
+
+
+Operating Point for Devices of Type Mosfet PMOS
+===============================================
+Instance:                M2
+Using model:           MYP1
+
+Capacitance Terms:
+CBD                  0.000 
+CBS                  0.000 
+CGSOVL               0.000 
+CGDOVL               0.000 
+CGBOVL               0.000 
+CGS                  0.000 
+CGD                  0.000 
+CGB                  0.000 
+
+Conductance Terms:
+GM                   4.826u
+GDS                  4.448n
+GMBS                 0.000 
+
+Current Terms:
+ID                 455.192n
+
+Voltage Terms:
+VGS                  1.650 
+VDS                  2.339 
+VBS                  2.201 
+VGB               -550.553m
+VGD               -688.635m
+VDB                138.082m
+VTH               -500.000m
+VDSAT             -188.635m
+
+Power DC Terms:
+PD                   1.065u
+PS                   0.000 
+
+DC Pin Currents:
+Ig                   0.000 
+Id                 455.192n
+Is                -455.192n
+Ib              -4.580E-020
+
+Condition:
+State                   SAT
+
+Device Variables:
+m                    1.000 
+l                    0.000 
+w                    0.000 
+ad                   0.000 
+as                   0.000 
+pd                   0.000 
+ps                   0.000 
+nrd                  0.000 
+nrs                  0.000 
+nrb                  0.000 
+nrg                  0.000 
+vds                  0.000 
+vgs                  0.000 
+vbs                  0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                 R1             R2
+V                   902.589m       961.365m
+Power DC Terms:
+PD                    1.697u       437.606n
+
+DC Pin Currents:
+Ir                    1.880u       455.192n
+
+Device Variables:
+tc1                   0.000          0.000 
+tc2                   0.000          0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:                V1             V2             V3             V4
+V                    3.300          3.300          1.650          1.650 
+Power DC Terms:
+PG                   6.205u         1.502u         0.000          0.000 
+
+DC Pin Currents:
+ISource             -1.880u      -455.192n         0.000          0.000 
+
+
