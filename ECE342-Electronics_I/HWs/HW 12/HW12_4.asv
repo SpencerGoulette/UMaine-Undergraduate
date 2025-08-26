@@ -1,0 +1,10 @@
+in = a1{1:90, 2};  % Vin
+out = a1{1:90, 3};  % Vout
+
+Fig1 = figure('Position', [200, 75, 850, 600]); % set figure size and location
+plot(in, out); % plot s(t)
+grid on; % add grid
+set(gca, 'fontsize', 16); % increase font size
+xlabel('V_{GS} (V)', 'fontsize', 16); % x label
+ylabel('V_{v} (V/V)', 'fontsize', 16); % y label
+title('A_{v} vs. V_{IN} = V_{GS}'); % title

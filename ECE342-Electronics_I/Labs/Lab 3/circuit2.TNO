@@ -1,0 +1,98 @@
+********************************************************************************
+***              Micro-Cap 12.0.0.3 (32 bit) Evaluation Version              ***
+***                                                                          ***
+***                                                                          ***
+***                      Transient Analysis of circuit2                      ***
+***                          10/21/2018 4:40:46 PM                           ***
+********************************************************************************
+Limits
+======
+Maximum Run Time           1m
+Output Start Time (tstart) 0
+Maximum Time Step          0
+Number of Points           51
+Temperature                Linear 27
+Retrace Runs               1
+Run Options                Normal
+State Variables            Zero
+Operating Point            On
+Operating Point Only       Off
+Auto Scale Ranges          Off
+Accumulate Plots           Off
+Fixed Time Step            Off
+Periodic Steady State      Off
+Ignore Expression Errors   Off
+
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+VOUT      2.062E-023  VIN           0.000  
+
+
+Operating Point for Devices of Type Diode
+=========================================
+Instance:                D1
+Using model:         1N4001
+
+Capacitance Terms:
+CAP                 48.305p
+
+Current Terms:
+ID               2.063E-030
+
+Resistance Terms:
+REQ                4.246MEG
+
+Voltage Terms:
+VD               2.062E-023
+
+Power DC Terms:
+PD               4.258E-053
+PS                   0.000 
+
+DC Pin Currents:
+Id               2.063E-030
+
+Condition:
+State                   OFF
+
+Device Variables:
+area                 1.000 
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                 R1
+V                 2.062E-023
+Power DC Terms:
+PD                4.251E-048
+
+DC Pin Currents:
+Ir                2.062E-025
+
+Device Variables:
+tc1                   0.000 
+tc2                   0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:                V1
+V                    0.000 
+Power DC Terms:
+PG                   0.000 
+
+DC Pin Currents:
+ISource          2.062E-025
+
+
