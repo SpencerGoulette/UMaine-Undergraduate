@@ -1,0 +1,6 @@
+f = linspace(-10000, 10000, 1001);
+h = 1./(((10000.*2.*pi.*f.*3.18.*10.^(-9)).^2 + 1).^(1/2));
+
+Fig1 = figure('Position', [200, 75, 850, 600]); % set figure size and location
+plot(f, h);
+xlim([-10^3 5*10^3]);
