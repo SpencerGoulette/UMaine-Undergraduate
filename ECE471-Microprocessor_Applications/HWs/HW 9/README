@@ -1,0 +1,13 @@
+ECE471 HW9 -- Fall 2018
+
+Name: Spencer Goulette
+
+4.
+  a. The Mariner 1 rocket was off-course due to a mis-transcribed specifcation into FORTRAN.
+  b. The reason you should always write correct, documented, and well tested code is because it is good to practice so that when you are writing important you know what you are doing and it's a habit.
+5.
+  a. touch --date "1969-4-20 4:20" fakedate
+  b. The year 2044 is out of range
+  c. This is not the most convincing argument because students could just change the timestamp.
+
+

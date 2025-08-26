@@ -1,0 +1,26 @@
+ECE 471 Fall 2018 -- Homework 3
+
+Names of Group Members: Jason Millette
+
+Answer to Question #3a:
+
+#1 Moves pointer to the end of the buffer instead of the beginning
+
+#2 Adds to get ASCII value of that number
+
+Describe your something cool: My something cool is that it prints from 15 to 0 instead of 0 to 15. I tried to get SYSCALL to read an input and then have it print up to that number but I could only get it to work for single digit numbers, so I ended up scrapping it and just having it count down from 15 to 0.
+
+Answer to Question #7:
+
+a. The ARM32 hello_world is 624 bytes, the THUMB hello_world.thumb is 604 bytes, and the THUMB2 hello_world.thumb2 is 600 bytes.
+
+b. The C code executable hello_world is 8148 bytes, which is a lot larger than the other files. 
+
+c. For a space-constrained system, it would probably be best to use thumb or thumb2. You probably shouldn't use C since it takes up a lot more space, but maybe use assembly depending on how much size you have.
+
+d. I found it easier to write the C code, since I've had a lot of practice with it and use it the most.
+
+Answer to Question #8a:
+
+There is a bug on 09/1752. The 3rd-13th are not displayed. This is because this is the date at which cal switches from the Julian calendar to the Gregorian calendar causing it to be a mix of both at this time. 
+

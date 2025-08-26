@@ -1,0 +1,15 @@
+ECE 471 HW 11
+Spencer Goulette
+
+1.
+	a. The machine that has the lowest under-load power draw is the Raspberry Pi 2.
+	b. The machine that consumes the least amount of energy is the Macbook Air.
+	c. The machine that computes the result fastest is the Macbook Air.
+
+2. No, not all the boards listed could meet the deadline. The Jetson-TX1 and Macbook Air are the only ones that can meet this deadline.
+
+3.
+	a. Jetson TX-1 Energy in 1 hour = 60(2.1W(60s - 47s) + 13.4W(47s)) = 39,426 J
+	b. Macbook Air Energy in 1 hour = 60(10.0W(60s - 14s) + 29.1W(14s)) = 52,044 J
+
+4.	If I was running this project off a battery, I would choose the Jetson TX-1 since it uses less energy than the Macbook Air per hour to do this project.

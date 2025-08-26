@@ -1,0 +1,16 @@
+ECE471 Fall 2018 -- HW7
+
+Name: Spencer Goulette
+
+4. Describe your something cool: Gives the highest temperature recorded and updates it every minute.
+
+5. a. I2C requires fewer wires and can transmit over longer distances than SPI.
+   b. SPI is lower power and potentially faster than I2C. 
+   c. This would not work because the voltage drop would be large over 150 feet, which would make the reading inaccurate.
+   d. There might be linearity errors into the conversion when you bitbang SPI via GPIO on regular Linux. 
+
+6. a. If you pipe a command to /dev/null, it disappears. It is like a bucket with a hole in it.
+   b. If you pipe a command to /dev/full, the message returned is "No space left on device."
+   c. One of the typical uses of /dev/zerp is to provide a character stream for initializing data.
+   d. /dev/random I believe it serves the purpose as a pseudorandom number generator, so it contains a bunch of random numbers.
+

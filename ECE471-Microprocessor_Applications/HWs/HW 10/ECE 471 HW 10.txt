@@ -1,0 +1,23 @@
+(a) If you wanted maximum floating point (GFLOPS) performance with one ARM system (meaning,
+not a cluster), which would you use?
+
+According to Table 2, the single arm system with the maximum GFLOPS is the Jetson TX-1, which has 16 GFLOPS. So, I would use the Jetson TX-1.
+
+(b) If you wanted lowest power under load with one ARM system, which board would you use?
+
+According to Table 2, the single arm system with the lowest power under load is the Raspberry Pi Model A+, which has an average load power of 1.0. So, I would use the Raspberry Pi Model A+
+
+(c) If you wanted maximum GFLOPs/W, which architecture should you use, x86 (Intel and AMD)
+or ARM?
+
+According to Table 2, the system with the maximum GFLOPs/W is the 16 core Intel Haswell-EP, which has x86 architecture. So, I would use the x86 architecture.
+
+(d) If you wanted maximum MFLOPs per dollar, which architecture should you use, x86 (Intel and
+AMD) or ARM?
+
+According to Table 2, the system with the maximum MFLOPs per dollar is the 16 core Intel Haswell-EP, which has x86 architecture. So, I would use the x86 architecture.
+
+(e) If you were personally building a compute cluster, what type of device would you make it out
+of? Why?
+
+I would probably use the 16 core Intel Haswell-EP because you get the most bang for your buck. Unfortunately, a drawback is the power used. Other than that, it seems to be the best.

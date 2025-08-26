@@ -1,0 +1,11 @@
+Name: Spencer Goulette
+
+Answers to homework questions in Part7:
+
+a. The command to learn more about the ls command is "man ls". To learn more about commands you can put "man" before the command.
+
+b. The -a option for the ls command stands for all and will list entries that start with . instead of ignoring them.
+
+c. Some reasons that Linux is used in embedded system design is because it is free ($ & freedom), runs well on low resources, and Linux is on ARM.
+
+d. To connect to my pi, I am using my laptop to ssh into my pi over the local network. I am copying files using a few different ways. I've used scp, pscp from PuTTY, and a USB. For this homework, I used pscp from PuTTY to copy the tar.gz file from my laptop to the pi.    

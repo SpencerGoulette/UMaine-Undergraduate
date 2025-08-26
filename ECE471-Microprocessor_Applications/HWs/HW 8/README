@@ -1,0 +1,19 @@
+ECE471 Fall 2018 -- HW8
+
+Name: Spencer Goulette
+
+
+3. Describe your something cool: Prints temperature in celcius, fahrenheit, and kelvin.
+
+
+4. a. When the DS18B20 is performing temperature conversion or copying data from the scratchpad memory to EEPROM, the operating current can be as high as 1.5mA. This current can cause an unacceptable voltage drop across the pullup resistor.
+   b. I would use the the 1-wire bus because it can go up to a couple hundred meters, whereas I2C and SPI can only go up to a couple meters at most.
+
+
+5. a. Prints "I have made good judgements in the past. I have made good judgements in the future. -Dan Quayle, former Vice President"
+
+
+
+
+
+

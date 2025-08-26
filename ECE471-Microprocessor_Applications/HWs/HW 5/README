@@ -1,0 +1,21 @@
+ECE471 HW5 -- Fall 2018
+
+Name:	Spencer Goulette
+
+
+7.	Describe what your "something cool" code does
+	
+	My something cool is that ECE471 scrolls from right to left.
+
+8.
+ a). The VideoCore GPU core is in charge of the initial boot process. In most other ARM devices, the ARM chip runs the first-stage boot loader (often MLO) and its second-stage boot loader (uboot).
+ b). The /boot partition on the Pi is a FAT32 filesystem because it is simple and uses low memory, plus it is free to use since the parent expired. Also, the boot firmware is smart enough to mount a FAT partition.
+ c). The boot loader is the code/program responsible for loading the kernel into memory and running it. Start.elf is what initializes things and loads and boots Linux kernel.img.
+ d). The optional parameters first and last limit the scanning range from 0x03 to 0x77 which is the default.
+
+9.
+ a). My display_final.c has 122 lines of code in it.
+ b). There are 77 lines in the diff file. 
+
+
+

@@ -1,0 +1,21 @@
+ECE471 HW#6 -- Fall 2018
+
+Name:
+
+
+5.	Describe what your "something cool" code does
+	
+	My something cool code scrolls right to left a special message.
+
+6.
+ a). No, the read_SCL() is never called. If we were using the slave device, we would want to know when the clock line is high or low.
+ b). No, my code doesn't handle all possible error conditions. The code currently doesn't handle any writing or reading errors.
+
+7.
+ a). The anti-lock brakes on your car is a hard real-time task. They need to respond very fast especially since lives could be at stake.
+ b). The tune button on the stereo is a soft real-time task. This is because there isn't any urgency for the tune button to work and the result is less useful as the deadline passes.
+ c). The info-tainment system for the car is a firm real-time task. This is because you want to maintain the framerate of 60Hz, but if it isn't able to, then it is no longer useful past the deadline point, plus there aren't any major consequences for the task passing the deadline.
+
+8.
+ a). The cat command showed many interrupts. One of the interrupts was the DMA IRQ interrupt. 
+ b). The yes command could be used as a quick and dirty way to quickly get through an interactive script.
