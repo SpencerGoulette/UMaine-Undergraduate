@@ -1,0 +1,10 @@
+|_______________________________________________|
+|	            ThreeDPoint			|
+|_______________________________________________|
+|-Z: double					|	Z-Coordinate
+|_______________________________________________|
+|+ThreeDPoint()					|	Constructs (0,0,0)
+|+ThreeDPoint(X: double, Y: double, Z: double)	|	Constructs (x,y,z)
+|+getZ()	double const			|	Gets Z
+|+distance(const MyPoint&)	double const	|	Finds Distance between a ThreeDPoint and a MyPoint
+|_______________________________________________|

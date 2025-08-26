@@ -1,0 +1,17 @@
+The following Homeworks contain:
+*A PNG of the code
+*An Executable of the code
+*The source code
+
+Each Homework:
+1. Palindrome
+2. Smallest Int
+3. Vector Stack
+4. 3D-Distance
+5. Permutation
+6. Longest Sequence
+7. Linked List Remove
+8. Binary Search Tree
+9. Container Remove
+10. Shortest Path
+

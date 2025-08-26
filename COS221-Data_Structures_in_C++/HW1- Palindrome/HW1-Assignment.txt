@@ -1,0 +1,18 @@
+COS 221 Data Structures
+Homework Assignment #1
+Due Date: 9/15/17
+Textbook Reference:  Ch. 10, Pg. 406, Ex. 10.5
+
+(Check palindrome) Write the following function to check whether a string is a palindrome assuming letters are case insensitive :
+
+Bool isPalindrome(const string& s)
+
+Write a test program that reads a string and displays whether it is a palindrome.
+
+You output file should show your program running as the input the famous palindrome:
+
+“Able was I ere I saw Elba”
+
+And should reject:
+
+“Boo hoo hoo”

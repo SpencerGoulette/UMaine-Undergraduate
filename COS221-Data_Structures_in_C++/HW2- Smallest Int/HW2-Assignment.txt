@@ -1,0 +1,7 @@
+COS 221 Data Structures
+Homework Assignment #2
+Due Date: 9/22/17
+Textbook Reference:  Ch. 11, Pg. 450, Ex. 11.5
+
+11.5 (Find the smallest element) Use pointers to write a function that finds the smallest element in an array of integers.
+Use {1,2,4,5,10,100,2,-22} to test the function.

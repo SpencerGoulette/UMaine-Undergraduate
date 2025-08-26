@@ -1,0 +1,8 @@
+COS 221 Data Structures
+Homework Assignment #3
+Due Date: 9/29/17
+Textbook Reference:  Ch. 12, Pg. 483, Ex. 12.9
+
+(Implement a stack class using a vector) In Listing 12.4, GenericStack is implemented suing arrays. Implement it using a vector.
+
+Your output file should show the test program performing all the functions of GenericStack (empty(), peek(), push(), pop() and getSize()) using the strings “Bird”, ”Cat”, and “Dog” as inputs.

@@ -1,0 +1,12 @@
+|_______________________________________|
+|                 MyPoint		|
+|_______________________________________|
+|-X: double				|	X-Coordinate
+|-Y: double				|	Y-Coordinate
+|_______________________________________|
+|+MyPoint()				|	Constructs (0,0)
+|+MyPoint(x: double, y: double)		|	Constructs (x,y)
+|+getX()	double const		|	Gets X
+|+getY()	double const		|	Gets Y
+|+distance(const MyPoint&) double const	|	Finds Distance Between two MyPoints
+|_______________________________________|

@@ -1,0 +1,9 @@
+COS 221 Data Structures
+Homework Assignment #7
+Due Date: 11/3/17
+Textbook Reference:  Ch. 20, Pg. 44, Ex. 20.1
+*20.1 (Implement remove(T element)) The implementation of remove(T element) is omitted in Listing 20.2, LinkedList.h. Implement it.
+
+For input use this sentence, which you may code as a constant string:
+"DURING the whole of a dull, dark, and soundless day in the autumn of the year, when the clouds hung oppressively low in the heavens, I had been passing alone, on horseback, through a singularly dreary tract of country; and at length found myself, as the shades of the evening drew on, within view of the melancholy House of Usher."
+Your test case should show the string after being loaded into a linked list and then again after the word “of” has been removed.

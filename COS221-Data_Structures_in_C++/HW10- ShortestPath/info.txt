@@ -1,0 +1,13 @@
+COS 221 Data Structures
+Homework Assignment #10
+Due Date: 12/1/17 
+Textbook Reference:  Ch. 24, Pg. 53, Ex. 24.3
+
+24.3* (Find a shortest path) Write a program that reads a connected graph from a file. The graph is stored in a file using the same format specified in Exercise 24.1. Your program should prompt the user to enter the name of the file, then two vertices, and displays the shortest path between the two vertices. For example, for the graph in Figure 24.17a, a shortest path between 0 and 5 may be displayed as 0 1 3 5. 
+ 
+Here is a sample run of the program:  
+Sample output 
+Enter a file name: c:\exercise\Exercise24_3a.txt  
+Enter two vertices (integer indexes): 0 5  The number of vertices is 6 Vertex 0: (0, 1) (0, 2)  Vertex 1: (1, 0) (1, 3)  Vertex 2: (2, 0) (2, 3) (2, 4)  Vertex 3: (3, 1) (3, 2) (3, 4) (3, 5)  Vertex 4: (4, 2) (4, 3) (4, 5)  Vertex 5: (5, 3) (5, 4)  The path is 0 1 3 5
+
+Note that while the problem request that you read this data from a file, you may instead hard-code the data for the graph.  You should, however request the source and destination nodes from the user for each run.

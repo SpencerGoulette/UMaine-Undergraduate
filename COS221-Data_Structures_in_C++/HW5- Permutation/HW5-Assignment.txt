@@ -1,0 +1,17 @@
+COS 221 Data Structures
+Homework Assignment #5
+Due Date: 10/20/17
+Textbook Reference:  Ch. 17, Pg. 649, Ex. 17.17
+
+(String permutations)Write a recursive function to print all permutations of a string. For example, for a string abc, the permutation is 
+Abc
+Acb
+Bac
+Bca
+Cab
+Cba
+(Hint: Define the following two functions.  The second is a helper function.)
+Void displayPermutation(const string& s)
+Void displayPermutation(const string& s1, const string& s2)
+The first function simply invokes displayPermutation(“”,s).  The second function uses a loop to move a character from s2 to s1 and recursively invoke it with a new s and s2. The base case is that s2 is empty and prints s1 to console.
+Write a test program that prompts the user to enter a string and displays all its permutations. Note that output is O(N!) so pick a small string.

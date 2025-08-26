@@ -1,0 +1,8 @@
+COS 221 Data Structures
+Homework Assignment #6
+Due Date: 10/27/17
+Textbook Reference:  Ch. 18, Pg. 48, Ex. 18.5
+
+18.5 (Same number subsequence) Write an O(n) program that prompts the user to enter a sequence of integers ending with 0 and finds longest subsequence with the same number. Here is a sample run of the program: 
+Sample output Enter a series of numbers ending with 0: 2 4 4 8 8 8 8 2 4 4 0 
+The longest same number sequence starts at index 4 with 4 values of 8 
